@@ -1,6 +1,5 @@
 module FeedlyApi
   module API
-
     def get_user_profile
       make_request('profile')
     end

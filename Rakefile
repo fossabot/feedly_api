@@ -7,3 +7,7 @@ RSpec::Core::RakeTask.new(:spec) do |t|
 end
 
 task default: :spec
+
+task :console do
+  exec "pry -r feedly_api -I ./lib"
+end
