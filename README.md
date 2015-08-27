@@ -13,13 +13,13 @@ Early unofficial Feedly API with no external dependencies
 
 ```ruby
 # Create client for API requests; OAuth token optional
-@client = FeedlyApi::Client.new
+client = FeedlyApi::Client.new
 # Create Feed object for specific feed id
-@feed = @client.feed('feed/https://www.eff.org/rss/updates.xml')
+feed = client.find_feed_by_id('feed/https://www.eff.org/rss/updates.xml')
 # Get array of feed items hashes
-@feed.items
+feed.items
 # Pass params to get more or less items
-@feed.items(count: 50)
+feed.items(count: 50)
 ```
 
 ## Roadmap

@@ -13,7 +13,7 @@ module FeedlyApi
       @title                = feed_hash.fetch(:title)
       @velocity             = feed_hash.fetch(:velocity, nil)
       @subscribers          = feed_hash.fetch(:subscribers)
-      @last_updated         = parse_time(feed_hash.fetch(:lastUpdated))
+      @last_updated         = parse_time(feed_hash.fetch(:lastUpdated, nil))
       @website              = feed_hash.fetch(:website, nil)
       @website_title        = feed_hash.fetch(:websiteTitle, nil)
       @score                = feed_hash.fetch(:score, nil)
@@ -42,7 +42,7 @@ module FeedlyApi
     private
 
     def parse_time(feedly_time)
-      Time.at(feedly_time / 1000).utc.to_datetime
+      Time.at(feedly_time / 1000).utc.to_datetime unless feedly_time.nil?
     end
   end
 end

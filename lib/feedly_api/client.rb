@@ -1,5 +1,6 @@
-require 'feedly_api/api'
-require 'feedly_api/api/search'
+require "feedly_api/api"
+require "feedly_api/api/search"
+require "feedly_api/api/feeds"
 
 module FeedlyApi
   class Client
@@ -15,18 +16,15 @@ module FeedlyApi
       get_user_profile[:id]
     end
 
-    def feed(feed_id)
-      Feed.new(self, feed_id)
-    end
-
     private
 
     def make_request(path, argv = {})
       url = FeedlyApi::API_ENDPOINT + path + '?'
+
       argv.each do |k, v|
         url << "#{k}=#{v}&"
       end
-      # p url
+
       JSON.parse(FeedlyApi.get(url, @auth_token), symbolize_names: true)
     end
   end
