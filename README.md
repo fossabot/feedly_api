@@ -27,21 +27,21 @@ feed.items(count: 50)
 - [ ] Continuation
 - [ ] OPML API
 - [ ] Markers API
-- [*] Feeds API
-- [ ] Entries API
+- [*] Feeds API _(without auth)_
+- [*] Entries API _(without auth)_
 - [ ] Categories API
 - [ ] Subscriptions API
 - [ ] Preferences API
 - [ ] Profile API
 - [ ] Topics API
 - [ ] Tags API
-- [ ] Search API
+- [*] Search API _(without auth)_
 - [ ] URL Shortener API
 - [ ] Mixes API
 
 ## Supported Ruby Versions
 
-feedly_api is tested under 1.9.3, 2.0.0, 2.1.0, 2.1.1, Ruby HEAD, JRuby (1.9 mode), JRuby HEAD, and Rubinius 2.2.7.
+feedly_api is tested under 1.9.3, 2.0.0, 2.1.6, 2.1.7, 2.2.2, 2.2.3, Ruby HEAD, JRuby 9.0.0.0, JRuby HEAD, and Rubinius 2.5.8.
 
 ## License
 
