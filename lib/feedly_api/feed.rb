@@ -35,7 +35,7 @@ module FeedlyApi
       @topics               = feed_hash.fetch(:topics, [])
     end
 
-    def items()
+    def entries
       []
     end
 

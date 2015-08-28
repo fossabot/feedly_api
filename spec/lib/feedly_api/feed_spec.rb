@@ -60,10 +60,10 @@ describe FeedlyApi::Feed do
     end
   end
 
-  describe "#items" do
+  describe "#entries" do
     it "should return list of FeedItems" do
       feed = FeedlyApi::Feed.new(feed_hash)
-      expect(feed.items).to eq []
+      expect(feed.entries).to eq []
     end
   end
 end
