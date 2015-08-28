@@ -1,6 +1,7 @@
 require "feedly_api/api"
-require "feedly_api/api/search"
 require "feedly_api/api/feeds"
+require "feedly_api/api/entries"
+require "feedly_api/api/search"
 
 module FeedlyApi
   class Client

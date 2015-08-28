@@ -27,7 +27,7 @@ feed.items(count: 50)
 - [ ] Continuation
 - [ ] OPML API
 - [ ] Markers API
-- [ ] Feeds API
+- [*] Feeds API
 - [ ] Entries API
 - [ ] Categories API
 - [ ] Subscriptions API
