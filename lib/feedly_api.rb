@@ -1,13 +1,10 @@
+# encoding: utf-8
+
 require 'feedly_api/version'
 require 'feedly_api/errors'
 require 'feedly_api/client'
 require 'feedly_api/feed'
 require 'feedly_api/entry'
-
-if RUBY_VERSION.to_i < 2
-  Encoding.default_internal = Encoding::UTF_8
-  Encoding.default_external = Encoding::UTF_8
-end
 
 module FeedlyApi
   # A Ruby client library for Feedly Reader
