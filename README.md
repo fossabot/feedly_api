@@ -27,15 +27,15 @@ feed.items(count: 50)
 - [ ] Continuation
 - [ ] OPML API
 - [ ] Markers API
-- [*] Feeds API _(without auth)_
-- [*] Entries API _(without auth)_
+- [x] Feeds API _(without auth)_
+- [x] Entries API _(without auth)_
 - [ ] Categories API
 - [ ] Subscriptions API
 - [ ] Preferences API
 - [ ] Profile API
 - [ ] Topics API
 - [ ] Tags API
-- [*] Search API _(without auth)_
+- [x] Search API _(without auth)_
 - [ ] URL Shortener API
 - [ ] Mixes API
 
