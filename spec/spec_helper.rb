@@ -4,4 +4,5 @@ require 'pry'
 unless ENV['TRAVIS'].nil?
   require 'coveralls'
   Coveralls.wear!
+  GC.disable
 end
