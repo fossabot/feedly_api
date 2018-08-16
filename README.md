@@ -1,6 +1,7 @@
 feedly_api
 ==========
 [![Coverage Status](https://img.shields.io/coveralls/Myuzu/feedly_api.svg)](https://coveralls.io/r/Myuzu/feedly_api?branch=master) [![Build Status](https://api.travis-ci.org/Myuzu/feedly_api.svg)](https://travis-ci.org/Myuzu/feedly_api) [![Code Climate](https://codeclimate.com/github/Myuzu/feedly_api/badges/gpa.svg)](https://codeclimate.com/github/Myuzu/feedly_api) [![Dependency Status](https://gemnasium.com/Myuzu/feedly_api.png)](https://gemnasium.com/Myuzu/feedly_api) [![Gem Version](https://badge.fury.io/rb/feedly_api.svg)](http://badge.fury.io/rb/feedly_api)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMyuzu%2Ffeedly_api.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMyuzu%2Ffeedly_api?ref=badge_shield)
 
 Early unofficial Feedly API with no external dependencies
 
@@ -46,3 +47,6 @@ feedly_api is tested under 1.9.3, 2.0.0, 2.1.0, 2.1.1, Ruby HEAD, JRuby (1.9 mod
 ## License
 
 MIT License
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMyuzu%2Ffeedly_api.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMyuzu%2Ffeedly_api?ref=badge_large)
